@@ -5,7 +5,7 @@
         <div class="flex lg:flex-1">
           <a href="#" class="-m-1.5 p-1.5">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="./assets/logo.png" alt="" style="filter: invert(100%)">
+            <img class="h-8 w-auto" src="@/assets/logo.png" alt="" style="filter: invert(100%)">
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -41,7 +41,7 @@
           <div class="flex items-center justify-between">
             <a href="#" class="-m-1.5 p-1.5">
               <span class="sr-only">Codecomodo</span>
-              <img class="h-8 w-auto" src="./assets/logo.png" alt="">
+              <img class="h-8 w-auto" src="@/assets/logo.png" alt="">
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700"
                     @click.prevent="this.$el.querySelector('#main-menu').classList.add('hidden')">

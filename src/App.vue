@@ -1,12 +1,12 @@
 <template>
-  <Header/>
+  <HeaderSection/>
 </template>
 
 <script setup>
 import {defineProps} from 'vue'
 import './App.css'
 
-import Header from "@/components/Header.vue";
+import HeaderSection from "@/components/HeaderSection.vue";
 
 defineProps({
   title: String
