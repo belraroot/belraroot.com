@@ -6,9 +6,9 @@ const routes = [
     { path: '/', component: HomePage }
 ]
 
-const index = createRouter({
+const router = createRouter({
     history: createWebHistory(),
     routes
 })
 
-export default index
+export default router

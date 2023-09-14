@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from '@/App.vue'
+
+import '@/App.css'
 
 // Font Awesome
 
@@ -10,4 +12,10 @@ import { faBook } from '@fortawesome/free-solid-svg-icons'
 
 library.add(faArrowRightToBracket, faBook)
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
+// Router
+import router from './router/router'
+
+createApp(App)
+    .use(router)
+    .component('font-awesome-icon', FontAwesomeIcon)
+    .mount('#app')
